@@ -1,0 +1,148 @@
+body {
+    background-color: MidnightBlue;
+    color: MistyRose;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1;
+    text-align: left;
+}
+
+.container {
+    font-family: 'Georgia';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    background-color: LightBlue;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.section {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    font-family: 'Brush Script MT';
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Georgia';
+    font-size: 24px;
+    text-align: left;
+}
+
+p {
+    color: MistyRose;
+}
+
+ul{
+    text-align: left;
+}
+
+.review {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+form.quiz {
+    font-family: 'Georgia';
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr {
+    border: 2px solid blue;
+}
+
+nav {
+    background-color: LightPink;
+    font-family: 'Georgia', sans-serif;
+}
+
+.container-fluid {
+    background-color: LightPink;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button, input[type="submit"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+
+input[type="text"] {
+    line-height: 1.8;
+    width: 100%;
+    max-width: 250px
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+    min-width: 150px
+    /* max-width: 100px */
+}
+
+
+tbody tr:nth-of-type(odd) {
+    background-color: DarkSlateBlue;
+    /* rgb(179, 208, 255, 0.3) */
+}
+
+a:link {
+    color: DarkMagenta;
+    text-decoration: none;
+    padding: 0.1rem 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+/* visited link */
+a:visited {
+    color: DarkMagenta;
+}
+
+/* mouse over link */
+a:hover {
+    color: Maroon;
+    text-decoration: none;
+}
+/* visited link */
+a:active {
+    color: MidnightBlue;
+}
